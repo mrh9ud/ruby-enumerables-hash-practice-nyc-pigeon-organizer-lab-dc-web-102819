@@ -3,7 +3,7 @@ def nyc_pigeon_organizer(data)
   data.each do |main_keys, inner_hash|
     #puts main_keys
     #puts inner_hash
-    hash.each do |inner_keys, nested_arrays|
+    inner_hash.each do |inner_keys, nested_arrays|
       #puts inner_keys
       #puts nested_arrays
       nested_arrays.each do |bird_names|
