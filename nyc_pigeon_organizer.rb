@@ -12,7 +12,7 @@ def nyc_pigeon_organizer(data)
           final_hash[bird_names] = {}
           #puts final_hash
         end
-        if !
+        
       end  
     end
   end
