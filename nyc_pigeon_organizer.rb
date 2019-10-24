@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
-  new_hash = {}
-  pigeon_data.each
+  data.each do |outer_data, sub_data, inner_data|
+    puts outer_data
 end
 
 
