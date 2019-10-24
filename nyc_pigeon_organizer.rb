@@ -1,16 +1,16 @@
 def nyc_pigeon_organizer(data)
-  new_hash = {}
-  data.each do |property, hash|
-    #puts property
-    #puts hash
-    hash.each do |attribute, array|
-      #puts attribute
-      #puts array
-      array.each do |name|
-        #puts name
-        if !new_hash.has_key?(name)
-          new_hash[name] = {}
-          puts new_hash
+  final_hash = {}
+  data.each do |main_keys, inner_hash|
+    #puts main_keys
+    #puts inner_hash
+    hash.each do |inner_keys, nested_arrays|
+      #puts inner_keys
+      #puts nested_arrays
+      nested_arrays.each do |bird_names|
+        #puts bird_names
+        if !new_hash.has_key?(bird_names)
+          final_hash[name] = {}
+          puts final_hash
         end
       end  
     end
