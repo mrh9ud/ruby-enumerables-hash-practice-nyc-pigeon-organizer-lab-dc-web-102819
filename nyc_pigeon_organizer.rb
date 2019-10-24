@@ -5,9 +5,9 @@ def nyc_pigeon_organizer(data)
     #puts inner_hash
     inner_hash.each do |inner_keys, nested_arrays|
       #puts inner_keys
-      #puts nested_arrays
+      puts nested_arrays
       nested_arrays.each do |bird_names|
-        #puts bird_names
+        puts bird_names
         if !final_hash.has_key?(bird_names)
           final_hash[bird_names] = {}
         end
@@ -20,7 +20,7 @@ def nyc_pigeon_organizer(data)
       end  
     end
   end
-  puts final_hash
+  #puts final_hash
 end
 nyc_pigeon_organizer({
         :color => {
