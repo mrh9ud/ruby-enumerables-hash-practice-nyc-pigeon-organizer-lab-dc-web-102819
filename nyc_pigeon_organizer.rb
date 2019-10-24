@@ -1,6 +1,6 @@
 def nyc_pigeon_organizer(data)
   data.each do |outer_data, sub_data, inner_data|
-    print sub_data
+    print outer_data[sub_data]
   end
 end
 
