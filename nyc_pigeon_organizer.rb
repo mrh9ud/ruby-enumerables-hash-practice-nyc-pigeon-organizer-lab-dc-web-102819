@@ -7,11 +7,12 @@ def nyc_pigeon_organizer(data)
       #puts inner_keys
       #puts nested_arrays
       nested_arrays.each do |bird_names|
-        #puts bird_names
+        puts bird_names
         if !final_hash.has_key?(bird_names)
           final_hash[bird_names] = {}
-          puts final_hash
+          #puts final_hash
         end
+        if !
       end  
     end
   end
