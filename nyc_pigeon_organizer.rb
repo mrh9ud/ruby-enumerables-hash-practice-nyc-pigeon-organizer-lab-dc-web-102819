@@ -9,13 +9,15 @@ def nyc_pigeon_organizer(data)
       nested_arrays.each do |bird_names|
         #puts bird_names
         if !final_hash.has_key?(bird_names)
-          final_hash[:bird_names] = {}
+          final_hash[bird_names] = {}
           #puts final_hash
         end
-        if !final_hash[:bird_names].has_key?(main_keys)
-          final_hash[:bird_names][:main_keys] = []
+        if !final_hash[bird_names].has_key?(main_keys)
+          final_hash[bird_names][main_keys] = []
           puts final_hash
         end
+        if !final_hash[bird_names][main_keys].include?(inner_keys)
+          final_hash[bird_names][main_keys].push
       end  
     end
   end
