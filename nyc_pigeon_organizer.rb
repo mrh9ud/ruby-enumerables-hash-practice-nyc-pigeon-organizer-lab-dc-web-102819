@@ -1,5 +1,6 @@
 def nyc_pigeon_organizer(data)
-  data
+  new_hash = {}
+  pigeon_data
 end
 
 
