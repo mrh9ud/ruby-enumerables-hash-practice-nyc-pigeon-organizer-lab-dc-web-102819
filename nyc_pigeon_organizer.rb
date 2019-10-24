@@ -1,4 +1,3 @@
-
 def nyc_pigeon_organizer(data)
   new_hash = {}
   data.each do |property, hash|
@@ -10,7 +9,6 @@ def nyc_pigeon_organizer(data)
     end
   end
 end
-  
 nyc_pigeon_organizer({
         :color => {
           :purple => ["Theo", "Peter Jr.", "Lucky"],
