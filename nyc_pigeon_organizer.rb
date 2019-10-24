@@ -4,6 +4,7 @@ def nyc_pigeon_organizer(data)
   data.each do |property, hash|
     hash.each do |attribute, array|
       puts attribute
+    end
   end
 end
   
