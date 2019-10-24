@@ -16,7 +16,7 @@ def nyc_pigeon_organizer(data)
           final_hash[bird_names][main_keys] = []
         end
         if !final_hash[bird_names][main_keys].include?(inner_keys)
-          final_hash[bird_names][main_keys].push(inner_keys).to_s
+          final_hash[bird_names][main_keys].push(inner_keys.to_s)
         end
       end  
     end
